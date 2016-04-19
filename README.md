@@ -1,1 +1,1 @@
-### A Javascript Sliding Module
+### A Javascript Slider
