@@ -1,0 +1,27 @@
+<div id="slider" class="slider">
+	<ul id="slider-container" class="slider__container">
+		<li class="slide">
+			Slide
+		</li>
+		<li class="slide">
+			Slide
+		</li>
+		<li class="slide">
+			Slide
+		</li>
+		<li class="slide">
+			Slide
+		</li>
+	</ul>
+</div>
+<a id="slider-left-btn" class="slider__btn slider__btn--left" data-slide-direction="left" href="javascript:;"></a>
+<a id="slider-right-btn" class="slider__btn slider__btn--right" data-slide-direction="right" href="javascript:;"></a>
+
+<script>
+	var slider = new Sliding({
+		frame: document.getElementById('slider'),
+		container: document.getElementById('slider-container'),
+		slideClass: 'slide',
+		btnClass: 'slider-btn'
+	});
+</script>

@@ -1,0 +1,39 @@
+.slider {
+	width: 100%;
+	height: inherit;
+	height: 45vh;
+	overflow:hidden;
+}
+
+.slider__container {
+	transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	margin: 0; padding: 0;
+	list-style-type: none;
+}
+
+.slide {
+	height: inherit;
+	float:left;
+	margin: 0; padding: 0;
+	padding-top: 25px;
+}
+
+.slider__btn {
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+	top:27vh;
+	background: #000;
+	width: 32px;
+	height: 32px;
+}
+
+.slider__btn--left {
+	background: url('resources/left.png');
+	margin-left: -32px;
+}
+
+.slider__btn--right {
+	background: url('resources/right.png');
+	margin-left: 40vw;
+}
